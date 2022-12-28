@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family:sans-serif ;
+    background-image: url(./photo-1496450681664-3df85efbd29f.jpg);
+    background-size: cover;
+    background-position:center top;
+}
+
+.app-wrap{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0),  rgba(0,0,0,0.2));
+    height: 100vh;
+    position: absolute;
+    left: 14%;
+    top: 40%;
+}
+main{  
+    width: 900px;  
+    position: relative;
+    left: 4%;
+    top: 10%;
+    text-align: center;
+}
+ 
+
+header{
+    display: flex;
+    width: 600px;
+    position: relative;
+    right: 4%;
+    top: 10%;
+}
+.location{
+    display: inli;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 3px 10px rgb(43, 43, 89);  
+}
+.data, .weather-type ,.max-min-temp{
+    margin: 0 30px;
+    font-size: 20px;
+    color: white;
+    
+
+}
+.temperature{
+    margin: 50px 0;
+    font-size: 150px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 10px 30px rgb(17, 17, 38); 
+
+}
+
+.weather-type{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.max-min-temp{
+    font-size: 20px;
+    margin: 20px;
+
+
+}
+
+/* input side */
+header{
+    margin-top: 100px;
+}
+.search{
+    text-align: end;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(43, 43, 89); 
+    background-color: transparent;
+    border: none;
+    border-bottom:black;
+    
+    
+}
+.search :focus{
+    background-color: rgb(226, 216, 216);
+
+}
+
+
+
+
+
+
+
+
+
+
